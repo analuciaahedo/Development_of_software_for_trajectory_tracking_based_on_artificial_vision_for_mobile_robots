@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/color_identification/color_identification.egg-info
+writing ../../build/color_identification/color_identification.egg-info/PKG-INFO
+writing dependency_links to ../../build/color_identification/color_identification.egg-info/dependency_links.txt
+writing entry points to ../../build/color_identification/color_identification.egg-info/entry_points.txt
+writing requirements to ../../build/color_identification/color_identification.egg-info/requires.txt
+writing top-level names to ../../build/color_identification/color_identification.egg-info/top_level.txt
+writing manifest file '../../build/color_identification/color_identification.egg-info/SOURCES.txt'
+reading manifest file '../../build/color_identification/color_identification.egg-info/SOURCES.txt'
+writing manifest file '../../build/color_identification/color_identification.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/puzzlebot/ros_ws/build/color_identification/build
+creating /home/puzzlebot/ros_ws/build/color_identification/build/lib
+creating /home/puzzlebot/ros_ws/build/color_identification/build/lib/color_identification
+copying color_identification/__init__.py -> /home/puzzlebot/ros_ws/build/color_identification/build/lib/color_identification
+copying color_identification/color_identification.py -> /home/puzzlebot/ros_ws/build/color_identification/build/lib/color_identification
+running install
+running install_lib
+creating /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification
+copying /home/puzzlebot/ros_ws/build/color_identification/build/lib/color_identification/__init__.py -> /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification
+copying /home/puzzlebot/ros_ws/build/color_identification/build/lib/color_identification/color_identification.py -> /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification
+byte-compiling /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification/color_identification.py to color_identification.cpython-38.pyc
+running install_data
+creating /home/puzzlebot/ros_ws/install/color_identification/share/ament_index
+creating /home/puzzlebot/ros_ws/install/color_identification/share/ament_index/resource_index
+creating /home/puzzlebot/ros_ws/install/color_identification/share/ament_index/resource_index/packages
+copying resource/color_identification -> /home/puzzlebot/ros_ws/install/color_identification/share/ament_index/resource_index/packages
+copying package.xml -> /home/puzzlebot/ros_ws/install/color_identification/share/color_identification
+running install_egg_info
+Copying ../../build/color_identification/color_identification.egg-info to /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification-0.0.0-py3.8.egg-info
+running install_scripts
+Installing color_identification script to /home/puzzlebot/ros_ws/install/color_identification/lib/color_identification
+writing list of installed files to '/home/puzzlebot/ros_ws/build/color_identification/install.log'

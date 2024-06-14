@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/gpt1/gpt1.egg-info
+writing ../../build/gpt1/gpt1.egg-info/PKG-INFO
+writing dependency_links to ../../build/gpt1/gpt1.egg-info/dependency_links.txt
+writing entry points to ../../build/gpt1/gpt1.egg-info/entry_points.txt
+writing requirements to ../../build/gpt1/gpt1.egg-info/requires.txt
+writing top-level names to ../../build/gpt1/gpt1.egg-info/top_level.txt
+writing manifest file '../../build/gpt1/gpt1.egg-info/SOURCES.txt'
+reading manifest file '../../build/gpt1/gpt1.egg-info/SOURCES.txt'
+writing manifest file '../../build/gpt1/gpt1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/puzzlebot/pruebas_gpt/build/gpt1/build
+creating /home/puzzlebot/pruebas_gpt/build/gpt1/build/lib
+creating /home/puzzlebot/pruebas_gpt/build/gpt1/build/lib/gpt1
+copying gpt1/gpt1.py -> /home/puzzlebot/pruebas_gpt/build/gpt1/build/lib/gpt1
+copying gpt1/__init__.py -> /home/puzzlebot/pruebas_gpt/build/gpt1/build/lib/gpt1
+running install
+running install_lib
+creating /home/puzzlebot/pruebas_gpt/install/gpt1/lib/python3.8/site-packages/gpt1
+copying /home/puzzlebot/pruebas_gpt/build/gpt1/build/lib/gpt1/gpt1.py -> /home/puzzlebot/pruebas_gpt/install/gpt1/lib/python3.8/site-packages/gpt1
+copying /home/puzzlebot/pruebas_gpt/build/gpt1/build/lib/gpt1/__init__.py -> /home/puzzlebot/pruebas_gpt/install/gpt1/lib/python3.8/site-packages/gpt1
+byte-compiling /home/puzzlebot/pruebas_gpt/install/gpt1/lib/python3.8/site-packages/gpt1/gpt1.py to gpt1.cpython-38.pyc
+byte-compiling /home/puzzlebot/pruebas_gpt/install/gpt1/lib/python3.8/site-packages/gpt1/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/puzzlebot/pruebas_gpt/install/gpt1/share/ament_index
+creating /home/puzzlebot/pruebas_gpt/install/gpt1/share/ament_index/resource_index
+creating /home/puzzlebot/pruebas_gpt/install/gpt1/share/ament_index/resource_index/packages
+copying resource/gpt1 -> /home/puzzlebot/pruebas_gpt/install/gpt1/share/ament_index/resource_index/packages
+copying package.xml -> /home/puzzlebot/pruebas_gpt/install/gpt1/share/gpt1
+running install_egg_info
+Copying ../../build/gpt1/gpt1.egg-info to /home/puzzlebot/pruebas_gpt/install/gpt1/lib/python3.8/site-packages/gpt1-0.0.0-py3.8.egg-info
+running install_scripts
+Installing gpt1 script to /home/puzzlebot/pruebas_gpt/install/gpt1/lib/gpt1
+writing list of installed files to '/home/puzzlebot/pruebas_gpt/build/gpt1/install.log'

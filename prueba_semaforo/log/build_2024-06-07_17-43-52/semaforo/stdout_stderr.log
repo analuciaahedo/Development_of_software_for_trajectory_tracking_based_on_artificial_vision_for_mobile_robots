@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/semaforo/semaforo.egg-info
+writing ../../build/semaforo/semaforo.egg-info/PKG-INFO
+writing dependency_links to ../../build/semaforo/semaforo.egg-info/dependency_links.txt
+writing entry points to ../../build/semaforo/semaforo.egg-info/entry_points.txt
+writing requirements to ../../build/semaforo/semaforo.egg-info/requires.txt
+writing top-level names to ../../build/semaforo/semaforo.egg-info/top_level.txt
+writing manifest file '../../build/semaforo/semaforo.egg-info/SOURCES.txt'
+reading manifest file '../../build/semaforo/semaforo.egg-info/SOURCES.txt'
+writing manifest file '../../build/semaforo/semaforo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/puzzlebot/prueba_semaforo/build/semaforo/build
+creating /home/puzzlebot/prueba_semaforo/build/semaforo/build/lib
+creating /home/puzzlebot/prueba_semaforo/build/semaforo/build/lib/semaforo
+copying semaforo/__init__.py -> /home/puzzlebot/prueba_semaforo/build/semaforo/build/lib/semaforo
+copying semaforo/semaforo.py -> /home/puzzlebot/prueba_semaforo/build/semaforo/build/lib/semaforo
+running install
+running install_lib
+creating /home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages/semaforo
+copying /home/puzzlebot/prueba_semaforo/build/semaforo/build/lib/semaforo/__init__.py -> /home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages/semaforo
+copying /home/puzzlebot/prueba_semaforo/build/semaforo/build/lib/semaforo/semaforo.py -> /home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages/semaforo
+byte-compiling /home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages/semaforo/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages/semaforo/semaforo.py to semaforo.cpython-38.pyc
+running install_data
+creating /home/puzzlebot/prueba_semaforo/install/semaforo/share/ament_index
+creating /home/puzzlebot/prueba_semaforo/install/semaforo/share/ament_index/resource_index
+creating /home/puzzlebot/prueba_semaforo/install/semaforo/share/ament_index/resource_index/packages
+copying resource/semaforo -> /home/puzzlebot/prueba_semaforo/install/semaforo/share/ament_index/resource_index/packages
+copying package.xml -> /home/puzzlebot/prueba_semaforo/install/semaforo/share/semaforo
+running install_egg_info
+Copying ../../build/semaforo/semaforo.egg-info to /home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages/semaforo-0.0.0-py3.8.egg-info
+running install_scripts
+Installing semaforo script to /home/puzzlebot/prueba_semaforo/install/semaforo/lib/semaforo
+writing list of installed files to '/home/puzzlebot/prueba_semaforo/build/semaforo/install.log'

@@ -1,0 +1,38 @@
+[0.461s] Invoking command in '/home/redes/odometria/src/odometria': PYTHONPATH=/home/redes/odometria/build/odometria/prefix_override:/home/redes/odometria/install/odometria/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/odometria build --build-base /home/redes/odometria/build/odometria/build install --record /home/redes/odometria/build/odometria/install.log --single-version-externally-managed install_data
+[0.632s] running egg_info
+[0.632s] creating ../../build/odometria/odometria.egg-info
+[0.632s] writing ../../build/odometria/odometria.egg-info/PKG-INFO
+[0.633s] writing dependency_links to ../../build/odometria/odometria.egg-info/dependency_links.txt
+[0.633s] writing entry points to ../../build/odometria/odometria.egg-info/entry_points.txt
+[0.633s] writing requirements to ../../build/odometria/odometria.egg-info/requires.txt
+[0.633s] writing top-level names to ../../build/odometria/odometria.egg-info/top_level.txt
+[0.633s] writing manifest file '../../build/odometria/odometria.egg-info/SOURCES.txt'
+[0.634s] reading manifest file '../../build/odometria/odometria.egg-info/SOURCES.txt'
+[0.634s] adding license file 'LICENSE'
+[0.635s] writing manifest file '../../build/odometria/odometria.egg-info/SOURCES.txt'
+[0.635s] running build
+[0.635s] running build_py
+[0.635s] creating /home/redes/odometria/build/odometria/build
+[0.635s] creating /home/redes/odometria/build/odometria/build/lib
+[0.635s] creating /home/redes/odometria/build/odometria/build/lib/odometria
+[0.635s] copying odometria/odometria.py -> /home/redes/odometria/build/odometria/build/lib/odometria
+[0.637s] copying odometria/__init__.py -> /home/redes/odometria/build/odometria/build/lib/odometria
+[0.637s] running install
+[0.637s] running install_lib
+[0.638s] creating /home/redes/odometria/install/odometria/lib/python3.10/site-packages/odometria
+[0.638s] copying /home/redes/odometria/build/odometria/build/lib/odometria/odometria.py -> /home/redes/odometria/install/odometria/lib/python3.10/site-packages/odometria
+[0.638s] copying /home/redes/odometria/build/odometria/build/lib/odometria/__init__.py -> /home/redes/odometria/install/odometria/lib/python3.10/site-packages/odometria
+[0.638s] byte-compiling /home/redes/odometria/install/odometria/lib/python3.10/site-packages/odometria/odometria.py to odometria.cpython-310.pyc
+[0.639s] byte-compiling /home/redes/odometria/install/odometria/lib/python3.10/site-packages/odometria/__init__.py to __init__.cpython-310.pyc
+[0.639s] running install_data
+[0.639s] creating /home/redes/odometria/install/odometria/share/ament_index
+[0.639s] creating /home/redes/odometria/install/odometria/share/ament_index/resource_index
+[0.639s] creating /home/redes/odometria/install/odometria/share/ament_index/resource_index/packages
+[0.639s] copying resource/odometria -> /home/redes/odometria/install/odometria/share/ament_index/resource_index/packages
+[0.639s] copying package.xml -> /home/redes/odometria/install/odometria/share/odometria
+[0.639s] running install_egg_info
+[0.641s] Copying ../../build/odometria/odometria.egg-info to /home/redes/odometria/install/odometria/lib/python3.10/site-packages/odometria-0.0.0-py3.10.egg-info
+[0.641s] running install_scripts
+[0.658s] Installing odometria script to /home/redes/odometria/install/odometria/lib/odometria
+[0.658s] writing list of installed files to '/home/redes/odometria/build/odometria/install.log'
+[0.677s] Invoked command in '/home/redes/odometria/src/odometria' returned '0': PYTHONPATH=/home/redes/odometria/build/odometria/prefix_override:/home/redes/odometria/install/odometria/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/odometria build --build-base /home/redes/odometria/build/odometria/build install --record /home/redes/odometria/build/odometria/install.log --single-version-externally-managed install_data

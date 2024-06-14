@@ -1,0 +1,37 @@
+[3.286s] Invoking command in '/home/puzzlebot/pruebas_gpt/src/gpt1': PYTHONPATH=/home/puzzlebot/pruebas_gpt/build/gpt1/prefix_override:/home/puzzlebot/pruebas_gpt/install/gpt1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gpt1 build --build-base /home/puzzlebot/pruebas_gpt/build/gpt1/build install --record /home/puzzlebot/pruebas_gpt/build/gpt1/install.log --single-version-externally-managed install_data
+[4.454s] running egg_info
+[4.455s] creating ../../build/gpt1/gpt1.egg-info
+[4.456s] writing ../../build/gpt1/gpt1.egg-info/PKG-INFO
+[4.457s] writing dependency_links to ../../build/gpt1/gpt1.egg-info/dependency_links.txt
+[4.458s] writing entry points to ../../build/gpt1/gpt1.egg-info/entry_points.txt
+[4.459s] writing requirements to ../../build/gpt1/gpt1.egg-info/requires.txt
+[4.459s] writing top-level names to ../../build/gpt1/gpt1.egg-info/top_level.txt
+[4.460s] writing manifest file '../../build/gpt1/gpt1.egg-info/SOURCES.txt'
+[4.626s] reading manifest file '../../build/gpt1/gpt1.egg-info/SOURCES.txt'
+[4.629s] writing manifest file '../../build/gpt1/gpt1.egg-info/SOURCES.txt'
+[4.633s] running build
+[4.633s] running build_py
+[4.634s] creating /home/puzzlebot/pruebas_gpt/build/gpt1/build
+[4.634s] creating /home/puzzlebot/pruebas_gpt/build/gpt1/build/lib
+[4.634s] creating /home/puzzlebot/pruebas_gpt/build/gpt1/build/lib/gpt1
+[4.635s] copying gpt1/gpt1.py -> /home/puzzlebot/pruebas_gpt/build/gpt1/build/lib/gpt1
+[4.635s] copying gpt1/__init__.py -> /home/puzzlebot/pruebas_gpt/build/gpt1/build/lib/gpt1
+[4.636s] running install
+[4.636s] running install_lib
+[4.640s] creating /home/puzzlebot/pruebas_gpt/install/gpt1/lib/python3.8/site-packages/gpt1
+[4.640s] copying /home/puzzlebot/pruebas_gpt/build/gpt1/build/lib/gpt1/gpt1.py -> /home/puzzlebot/pruebas_gpt/install/gpt1/lib/python3.8/site-packages/gpt1
+[4.641s] copying /home/puzzlebot/pruebas_gpt/build/gpt1/build/lib/gpt1/__init__.py -> /home/puzzlebot/pruebas_gpt/install/gpt1/lib/python3.8/site-packages/gpt1
+[4.644s] byte-compiling /home/puzzlebot/pruebas_gpt/install/gpt1/lib/python3.8/site-packages/gpt1/gpt1.py to gpt1.cpython-38.pyc
+[4.651s] byte-compiling /home/puzzlebot/pruebas_gpt/install/gpt1/lib/python3.8/site-packages/gpt1/__init__.py to __init__.cpython-38.pyc
+[4.652s] running install_data
+[4.652s] creating /home/puzzlebot/pruebas_gpt/install/gpt1/share/ament_index
+[4.653s] creating /home/puzzlebot/pruebas_gpt/install/gpt1/share/ament_index/resource_index
+[4.653s] creating /home/puzzlebot/pruebas_gpt/install/gpt1/share/ament_index/resource_index/packages
+[4.653s] copying resource/gpt1 -> /home/puzzlebot/pruebas_gpt/install/gpt1/share/ament_index/resource_index/packages
+[4.654s] copying package.xml -> /home/puzzlebot/pruebas_gpt/install/gpt1/share/gpt1
+[4.654s] running install_egg_info
+[4.662s] Copying ../../build/gpt1/gpt1.egg-info to /home/puzzlebot/pruebas_gpt/install/gpt1/lib/python3.8/site-packages/gpt1-0.0.0-py3.8.egg-info
+[4.666s] running install_scripts
+[4.738s] Installing gpt1 script to /home/puzzlebot/pruebas_gpt/install/gpt1/lib/gpt1
+[4.739s] writing list of installed files to '/home/puzzlebot/pruebas_gpt/build/gpt1/install.log'
+[4.850s] Invoked command in '/home/puzzlebot/pruebas_gpt/src/gpt1' returned '0': PYTHONPATH=/home/puzzlebot/pruebas_gpt/build/gpt1/prefix_override:/home/puzzlebot/pruebas_gpt/install/gpt1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gpt1 build --build-base /home/puzzlebot/pruebas_gpt/build/gpt1/build install --record /home/puzzlebot/pruebas_gpt/build/gpt1/install.log --single-version-externally-managed install_data

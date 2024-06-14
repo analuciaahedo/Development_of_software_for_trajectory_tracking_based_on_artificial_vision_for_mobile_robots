@@ -1,0 +1,3 @@
+[console_scripts]
+gpt1 = gpt1.gpt1:main
+

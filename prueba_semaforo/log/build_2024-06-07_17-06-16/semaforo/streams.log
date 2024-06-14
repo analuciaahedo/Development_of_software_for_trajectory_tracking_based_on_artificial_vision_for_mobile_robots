@@ -1,0 +1,21 @@
+[3.285s] Invoking command in '/home/puzzlebot/prueba_semaforo/src/semaforo': PYTHONPATH=/home/puzzlebot/prueba_semaforo/build/semaforo/prefix_override:/home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/semaforo build --build-base /home/puzzlebot/prueba_semaforo/build/semaforo/build install --record /home/puzzlebot/prueba_semaforo/build/semaforo/install.log --single-version-externally-managed install_data
+[4.443s] running egg_info
+[4.447s] writing ../../build/semaforo/semaforo.egg-info/PKG-INFO
+[4.452s] writing dependency_links to ../../build/semaforo/semaforo.egg-info/dependency_links.txt
+[4.452s] writing entry points to ../../build/semaforo/semaforo.egg-info/entry_points.txt
+[4.453s] writing requirements to ../../build/semaforo/semaforo.egg-info/requires.txt
+[4.453s] writing top-level names to ../../build/semaforo/semaforo.egg-info/top_level.txt
+[4.616s] reading manifest file '../../build/semaforo/semaforo.egg-info/SOURCES.txt'
+[4.621s] writing manifest file '../../build/semaforo/semaforo.egg-info/SOURCES.txt'
+[4.622s] running build
+[4.622s] running build_py
+[4.623s] running install
+[4.627s] running install_lib
+[4.635s] running install_data
+[4.637s] running install_egg_info
+[4.644s] removing '/home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages/semaforo-0.0.0-py3.8.egg-info' (and everything under it)
+[4.645s] Copying ../../build/semaforo/semaforo.egg-info to /home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages/semaforo-0.0.0-py3.8.egg-info
+[4.651s] running install_scripts
+[4.724s] Installing semaforo script to /home/puzzlebot/prueba_semaforo/install/semaforo/lib/semaforo
+[4.726s] writing list of installed files to '/home/puzzlebot/prueba_semaforo/build/semaforo/install.log'
+[4.833s] Invoked command in '/home/puzzlebot/prueba_semaforo/src/semaforo' returned '0': PYTHONPATH=/home/puzzlebot/prueba_semaforo/build/semaforo/prefix_override:/home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/semaforo build --build-base /home/puzzlebot/prueba_semaforo/build/semaforo/build install --record /home/puzzlebot/prueba_semaforo/build/semaforo/install.log --single-version-externally-managed install_data

@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000970] (odometria) JobQueued: {'identifier': 'odometria', 'dependencies': OrderedDict()}
+[0.002807] (odometria) JobStarted: {'identifier': 'odometria'}
+[0.098938] (-) TimerEvent: {}
+[0.199819] (-) TimerEvent: {}
+[0.300819] (-) TimerEvent: {}
+[0.402953] (-) TimerEvent: {}
+[0.503655] (-) TimerEvent: {}
+[0.604358] (-) TimerEvent: {}
+[0.705118] (-) TimerEvent: {}
+[0.805859] (-) TimerEvent: {}
+[0.906499] (-) TimerEvent: {}
+[1.007086] (-) TimerEvent: {}
+[1.107671] (-) TimerEvent: {}
+[1.208532] (-) TimerEvent: {}
+[1.309254] (-) TimerEvent: {}
+[1.410057] (-) TimerEvent: {}
+[1.510650] (-) TimerEvent: {}
+[1.611236] (-) TimerEvent: {}
+[1.711808] (-) TimerEvent: {}
+[1.812375] (-) TimerEvent: {}
+[1.912926] (-) TimerEvent: {}
+[2.013477] (-) TimerEvent: {}
+[2.114069] (-) TimerEvent: {}
+[2.214673] (-) TimerEvent: {}
+[2.315279] (-) TimerEvent: {}
+[2.416133] (-) TimerEvent: {}
+[2.516869] (-) TimerEvent: {}
+[2.617539] (-) TimerEvent: {}
+[2.718274] (-) TimerEvent: {}
+[2.818916] (-) TimerEvent: {}
+[2.919541] (-) TimerEvent: {}
+[3.020179] (-) TimerEvent: {}
+[3.120773] (-) TimerEvent: {}
+[3.221379] (-) TimerEvent: {}
+[3.322046] (-) TimerEvent: {}
+[3.336087] (odometria) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/odometria', 'build', '--build-base', '/home/puzzlebot/odometria/build/odometria/build', 'install', '--record', '/home/puzzlebot/odometria/build/odometria/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/puzzlebot/odometria/src/odometria', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'puzzlebot', 'SSH_CLIENT': '10.42.0.117 41700 22', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/puzzlebot', 'OLDPWD': '/home/puzzlebot', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'es_MX.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/puzzlebot/ros2_ws/install:/home/puzzlebot/ros2_packages_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'puzzlebot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/puzzlebot/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'es_MX.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_GB.UTF-8', 'LC_TELEPHONE': 'es_MX.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'PWD': '/home/puzzlebot/odometria/build/odometria', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.117 41700 10.42.0.1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/puzzlebot/odometria/build/odometria/prefix_override:/home/puzzlebot/odometria/install/odometria/lib/python3.8/site-packages:/home/puzzlebot/ros2_ws/install/puzzlebot_ros/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher'}, 'shell': False}
+[3.422300] (-) TimerEvent: {}
+[3.523012] (-) TimerEvent: {}
+[3.623675] (-) TimerEvent: {}
+[3.724322] (-) TimerEvent: {}
+[3.824940] (-) TimerEvent: {}
+[3.925576] (-) TimerEvent: {}
+[4.026188] (-) TimerEvent: {}
+[4.126742] (-) TimerEvent: {}
+[4.227284] (-) TimerEvent: {}
+[4.327914] (-) TimerEvent: {}
+[4.428762] (-) TimerEvent: {}
+[4.495381] (odometria) StdoutLine: {'line': b'running egg_info\n'}
+[4.497956] (odometria) StdoutLine: {'line': b'writing ../../build/odometria/odometria.egg-info/PKG-INFO\n'}
+[4.502760] (odometria) StdoutLine: {'line': b'writing dependency_links to ../../build/odometria/odometria.egg-info/dependency_links.txt\n'}
+[4.505451] (odometria) StdoutLine: {'line': b'writing entry points to ../../build/odometria/odometria.egg-info/entry_points.txt\n'}
+[4.506777] (odometria) StdoutLine: {'line': b'writing requirements to ../../build/odometria/odometria.egg-info/requires.txt\n'}
+[4.507199] (odometria) StdoutLine: {'line': b'writing top-level names to ../../build/odometria/odometria.egg-info/top_level.txt\n'}
+[4.528973] (-) TimerEvent: {}
+[4.629771] (-) TimerEvent: {}
+[4.675202] (odometria) StdoutLine: {'line': b"reading manifest file '../../build/odometria/odometria.egg-info/SOURCES.txt'\n"}
+[4.681036] (odometria) StdoutLine: {'line': b"writing manifest file '../../build/odometria/odometria.egg-info/SOURCES.txt'\n"}
+[4.681776] (odometria) StdoutLine: {'line': b'running build\n'}
+[4.682248] (odometria) StdoutLine: {'line': b'running build_py\n'}
+[4.683542] (odometria) StdoutLine: {'line': b'running install\n'}
+[4.686925] (odometria) StdoutLine: {'line': b'running install_lib\n'}
+[4.694405] (odometria) StdoutLine: {'line': b'byte-compiling /home/puzzlebot/odometria/install/odometria/lib/python3.8/site-packages/odometria/__init__.py to __init__.cpython-38.pyc\n'}
+[4.702259] (odometria) StdoutLine: {'line': b'running install_data\n'}
+[4.702880] (odometria) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.712398] (odometria) StdoutLine: {'line': b"removing '/home/puzzlebot/odometria/install/odometria/lib/python3.8/site-packages/odometria-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.718787] (odometria) StdoutLine: {'line': b'Copying ../../build/odometria/odometria.egg-info to /home/puzzlebot/odometria/install/odometria/lib/python3.8/site-packages/odometria-0.0.0-py3.8.egg-info\n'}
+[4.721209] (odometria) StdoutLine: {'line': b'running install_scripts\n'}
+[4.730105] (-) TimerEvent: {}
+[4.794183] (odometria) StdoutLine: {'line': b'Installing odometria script to /home/puzzlebot/odometria/install/odometria/lib/odometria\n'}
+[4.798016] (odometria) StdoutLine: {'line': b"writing list of installed files to '/home/puzzlebot/odometria/build/odometria/install.log'\n"}
+[4.830274] (-) TimerEvent: {}
+[4.902732] (odometria) CommandEnded: {'returncode': 0}
+[4.930773] (-) TimerEvent: {}
+[4.966965] (odometria) JobEnded: {'identifier': 'odometria', 'rc': 0}
+[4.970234] (-) EventReactorShutdown: {}

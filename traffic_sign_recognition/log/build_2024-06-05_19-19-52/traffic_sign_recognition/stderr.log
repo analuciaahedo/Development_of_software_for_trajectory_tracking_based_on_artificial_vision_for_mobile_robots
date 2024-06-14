@@ -1,0 +1,5 @@
+  File "/home/redes/traffic_sign_recognition/install/traffic_sign_recognition/lib/python3.10/site-packages/traffic_sign_recognition/traffic_sign_recognition.py", line 55
+    frame = cv2.resize(frame, (0, 0), fx=0.5 fy=0.5)
+                                         ^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

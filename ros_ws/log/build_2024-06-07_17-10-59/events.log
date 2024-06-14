@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.000504] (color_identification) JobQueued: {'identifier': 'color_identification', 'dependencies': OrderedDict()}
+[0.000760] (color_identification) JobStarted: {'identifier': 'color_identification'}
+[0.097088] (-) TimerEvent: {}
+[0.197916] (-) TimerEvent: {}
+[0.298536] (-) TimerEvent: {}
+[0.399139] (-) TimerEvent: {}
+[0.499740] (-) TimerEvent: {}
+[0.600345] (-) TimerEvent: {}
+[0.700931] (-) TimerEvent: {}
+[0.801443] (-) TimerEvent: {}
+[0.902039] (-) TimerEvent: {}
+[1.002658] (-) TimerEvent: {}
+[1.103241] (-) TimerEvent: {}
+[1.203876] (-) TimerEvent: {}
+[1.304599] (-) TimerEvent: {}
+[1.405269] (-) TimerEvent: {}
+[1.505890] (-) TimerEvent: {}
+[1.606449] (-) TimerEvent: {}
+[1.707041] (-) TimerEvent: {}
+[1.807579] (-) TimerEvent: {}
+[1.908157] (-) TimerEvent: {}
+[2.008776] (-) TimerEvent: {}
+[2.109825] (-) TimerEvent: {}
+[2.210435] (-) TimerEvent: {}
+[2.311064] (-) TimerEvent: {}
+[2.411677] (-) TimerEvent: {}
+[2.512290] (-) TimerEvent: {}
+[2.612915] (-) TimerEvent: {}
+[2.713479] (-) TimerEvent: {}
+[2.814125] (-) TimerEvent: {}
+[2.879163] (color_identification) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/color_identification', 'build', '--build-base', '/home/puzzlebot/ros_ws/build/color_identification/build', 'install', '--record', '/home/puzzlebot/ros_ws/build/color_identification/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/puzzlebot/ros_ws/src/color_identification', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'puzzlebot', 'SSH_CLIENT': '10.42.0.69 58808 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/puzzlebot', 'OLDPWD': '/home/puzzlebot', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/puzzlebot/ros_ws1/install:/home/puzzlebot/ros2_ws/install:/home/puzzlebot/ros2_packages_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'puzzlebot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/puzzlebot/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/puzzlebot/ros_ws1/install/line_detection:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'PWD': '/home/puzzlebot/ros_ws/build/color_identification', 'SSH_CONNECTION': '10.42.0.69 58808 10.42.0.1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/puzzlebot/ros_ws/build/color_identification/prefix_override:/home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages:/home/puzzlebot/ros_ws1/install/line_detection/lib/python3.8/site-packages:/home/puzzlebot/ros2_ws/install/puzzlebot_ros/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher'}, 'shell': False}
+[2.914374] (-) TimerEvent: {}
+[3.015051] (-) TimerEvent: {}
+[3.115661] (-) TimerEvent: {}
+[3.216255] (-) TimerEvent: {}
+[3.316861] (-) TimerEvent: {}
+[3.417409] (-) TimerEvent: {}
+[3.517971] (-) TimerEvent: {}
+[3.618547] (-) TimerEvent: {}
+[3.719123] (-) TimerEvent: {}
+[3.819721] (-) TimerEvent: {}
+[3.887363] (color_identification) StdoutLine: {'line': b'running egg_info\n'}
+[3.889475] (color_identification) StdoutLine: {'line': b'creating ../../build/color_identification/color_identification.egg-info\n'}
+[3.890166] (color_identification) StdoutLine: {'line': b'writing ../../build/color_identification/color_identification.egg-info/PKG-INFO\n'}
+[3.890924] (color_identification) StdoutLine: {'line': b'writing dependency_links to ../../build/color_identification/color_identification.egg-info/dependency_links.txt\n'}
+[3.891474] (color_identification) StdoutLine: {'line': b'writing entry points to ../../build/color_identification/color_identification.egg-info/entry_points.txt\n'}
+[3.891920] (color_identification) StdoutLine: {'line': b'writing requirements to ../../build/color_identification/color_identification.egg-info/requires.txt\n'}
+[3.892342] (color_identification) StdoutLine: {'line': b'writing top-level names to ../../build/color_identification/color_identification.egg-info/top_level.txt\n'}
+[3.892740] (color_identification) StdoutLine: {'line': b"writing manifest file '../../build/color_identification/color_identification.egg-info/SOURCES.txt'\n"}
+[3.919918] (-) TimerEvent: {}
+[4.020516] (-) TimerEvent: {}
+[4.040978] (color_identification) StdoutLine: {'line': b"reading manifest file '../../build/color_identification/color_identification.egg-info/SOURCES.txt'\n"}
+[4.043971] (color_identification) StdoutLine: {'line': b"writing manifest file '../../build/color_identification/color_identification.egg-info/SOURCES.txt'\n"}
+[4.044586] (color_identification) StdoutLine: {'line': b'running build\n'}
+[4.045244] (color_identification) StdoutLine: {'line': b'running build_py\n'}
+[4.046371] (color_identification) StdoutLine: {'line': b'creating /home/puzzlebot/ros_ws/build/color_identification/build\n'}
+[4.046870] (color_identification) StdoutLine: {'line': b'creating /home/puzzlebot/ros_ws/build/color_identification/build/lib\n'}
+[4.047239] (color_identification) StdoutLine: {'line': b'creating /home/puzzlebot/ros_ws/build/color_identification/build/lib/color_identification\n'}
+[4.047708] (color_identification) StdoutLine: {'line': b'copying color_identification/__init__.py -> /home/puzzlebot/ros_ws/build/color_identification/build/lib/color_identification\n'}
+[4.048084] (color_identification) StdoutLine: {'line': b'copying color_identification/color_identification.py -> /home/puzzlebot/ros_ws/build/color_identification/build/lib/color_identification\n'}
+[4.048439] (color_identification) StdoutLine: {'line': b'running install\n'}
+[4.050439] (color_identification) StdoutLine: {'line': b'running install_lib\n'}
+[4.054023] (color_identification) StdoutLine: {'line': b'creating /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification\n'}
+[4.054691] (color_identification) StdoutLine: {'line': b'copying /home/puzzlebot/ros_ws/build/color_identification/build/lib/color_identification/__init__.py -> /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification\n'}
+[4.055126] (color_identification) StdoutLine: {'line': b'copying /home/puzzlebot/ros_ws/build/color_identification/build/lib/color_identification/color_identification.py -> /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification\n'}
+[4.056556] (color_identification) StdoutLine: {'line': b'byte-compiling /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification/__init__.py to __init__.cpython-38.pyc\n'}
+[4.061386] (color_identification) StdoutLine: {'line': b'byte-compiling /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification/color_identification.py to color_identification.cpython-38.pyc\n'}
+[4.065362] (color_identification) StdoutLine: {'line': b'running install_data\n'}
+[4.066015] (color_identification) StdoutLine: {'line': b'creating /home/puzzlebot/ros_ws/install/color_identification/share/ament_index\n'}
+[4.066582] (color_identification) StdoutLine: {'line': b'creating /home/puzzlebot/ros_ws/install/color_identification/share/ament_index/resource_index\n'}
+[4.066995] (color_identification) StdoutLine: {'line': b'creating /home/puzzlebot/ros_ws/install/color_identification/share/ament_index/resource_index/packages\n'}
+[4.067344] (color_identification) StdoutLine: {'line': b'copying resource/color_identification -> /home/puzzlebot/ros_ws/install/color_identification/share/ament_index/resource_index/packages\n'}
+[4.067703] (color_identification) StdoutLine: {'line': b'copying package.xml -> /home/puzzlebot/ros_ws/install/color_identification/share/color_identification\n'}
+[4.068051] (color_identification) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.074476] (color_identification) StdoutLine: {'line': b'Copying ../../build/color_identification/color_identification.egg-info to /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification-0.0.0-py3.8.egg-info\n'}
+[4.077827] (color_identification) StdoutLine: {'line': b'running install_scripts\n'}
+[4.120668] (-) TimerEvent: {}
+[4.140597] (color_identification) StdoutLine: {'line': b'Installing color_identification script to /home/puzzlebot/ros_ws/install/color_identification/lib/color_identification\n'}
+[4.141758] (color_identification) StdoutLine: {'line': b"writing list of installed files to '/home/puzzlebot/ros_ws/build/color_identification/install.log'\n"}
+[4.221648] (-) TimerEvent: {}
+[4.234471] (color_identification) CommandEnded: {'returncode': 0}
+[4.272150] (color_identification) JobEnded: {'identifier': 'color_identification', 'rc': 0}
+[4.274496] (-) EventReactorShutdown: {}

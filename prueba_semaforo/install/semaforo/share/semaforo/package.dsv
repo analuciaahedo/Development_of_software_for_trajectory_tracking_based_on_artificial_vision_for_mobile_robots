@@ -1,0 +1,6 @@
+source;share/semaforo/hook/pythonpath.ps1
+source;share/semaforo/hook/pythonpath.dsv
+source;share/semaforo/hook/pythonpath.sh
+source;share/semaforo/hook/ament_prefix_path.ps1
+source;share/semaforo/hook/ament_prefix_path.dsv
+source;share/semaforo/hook/ament_prefix_path.sh

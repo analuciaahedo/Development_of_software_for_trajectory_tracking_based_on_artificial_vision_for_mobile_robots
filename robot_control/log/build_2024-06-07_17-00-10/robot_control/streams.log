@@ -1,0 +1,37 @@
+[3.058s] Invoking command in '/home/puzzlebot/robot_control/robot_control': PYTHONPATH=/home/puzzlebot/robot_control/build/robot_control/prefix_override:/home/puzzlebot/robot_control/install/robot_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/robot_control build --build-base /home/puzzlebot/robot_control/build/robot_control/build install --record /home/puzzlebot/robot_control/build/robot_control/install.log --single-version-externally-managed install_data
+[4.062s] running egg_info
+[4.064s] creating ../build/robot_control/robot_control.egg-info
+[4.064s] writing ../build/robot_control/robot_control.egg-info/PKG-INFO
+[4.065s] writing dependency_links to ../build/robot_control/robot_control.egg-info/dependency_links.txt
+[4.066s] writing entry points to ../build/robot_control/robot_control.egg-info/entry_points.txt
+[4.066s] writing requirements to ../build/robot_control/robot_control.egg-info/requires.txt
+[4.066s] writing top-level names to ../build/robot_control/robot_control.egg-info/top_level.txt
+[4.067s] writing manifest file '../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[4.219s] reading manifest file '../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[4.224s] writing manifest file '../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[4.225s] running build
+[4.225s] running build_py
+[4.225s] creating /home/puzzlebot/robot_control/build/robot_control/build
+[4.226s] creating /home/puzzlebot/robot_control/build/robot_control/build/lib
+[4.226s] creating /home/puzzlebot/robot_control/build/robot_control/build/lib/robot_control
+[4.226s] copying robot_control/__init__.py -> /home/puzzlebot/robot_control/build/robot_control/build/lib/robot_control
+[4.227s] copying robot_control/robot_control.py -> /home/puzzlebot/robot_control/build/robot_control/build/lib/robot_control
+[4.227s] running install
+[4.228s] running install_lib
+[4.231s] creating /home/puzzlebot/robot_control/install/robot_control/lib/python3.8/site-packages/robot_control
+[4.232s] copying /home/puzzlebot/robot_control/build/robot_control/build/lib/robot_control/__init__.py -> /home/puzzlebot/robot_control/install/robot_control/lib/python3.8/site-packages/robot_control
+[4.232s] copying /home/puzzlebot/robot_control/build/robot_control/build/lib/robot_control/robot_control.py -> /home/puzzlebot/robot_control/install/robot_control/lib/python3.8/site-packages/robot_control
+[4.234s] byte-compiling /home/puzzlebot/robot_control/install/robot_control/lib/python3.8/site-packages/robot_control/__init__.py to __init__.cpython-38.pyc
+[4.238s] byte-compiling /home/puzzlebot/robot_control/install/robot_control/lib/python3.8/site-packages/robot_control/robot_control.py to robot_control.cpython-38.pyc
+[4.242s] running install_data
+[4.242s] creating /home/puzzlebot/robot_control/install/robot_control/share/ament_index
+[4.243s] creating /home/puzzlebot/robot_control/install/robot_control/share/ament_index/resource_index
+[4.243s] creating /home/puzzlebot/robot_control/install/robot_control/share/ament_index/resource_index/packages
+[4.244s] copying resource/robot_control -> /home/puzzlebot/robot_control/install/robot_control/share/ament_index/resource_index/packages
+[4.244s] copying package.xml -> /home/puzzlebot/robot_control/install/robot_control/share/robot_control
+[4.244s] running install_egg_info
+[4.251s] Copying ../build/robot_control/robot_control.egg-info to /home/puzzlebot/robot_control/install/robot_control/lib/python3.8/site-packages/robot_control-0.0.0-py3.8.egg-info
+[4.254s] running install_scripts
+[4.317s] Installing robot_control script to /home/puzzlebot/robot_control/install/robot_control/lib/robot_control
+[4.318s] writing list of installed files to '/home/puzzlebot/robot_control/build/robot_control/install.log'
+[4.417s] Invoked command in '/home/puzzlebot/robot_control/robot_control' returned '0': PYTHONPATH=/home/puzzlebot/robot_control/build/robot_control/prefix_override:/home/puzzlebot/robot_control/install/robot_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/robot_control build --build-base /home/puzzlebot/robot_control/build/robot_control/build install --record /home/puzzlebot/robot_control/build/robot_control/install.log --single-version-externally-managed install_data

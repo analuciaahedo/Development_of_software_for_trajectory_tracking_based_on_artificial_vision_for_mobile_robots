@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/gpt1/gpt1.egg-info/PKG-INFO
+../../build/gpt1/gpt1.egg-info/SOURCES.txt
+../../build/gpt1/gpt1.egg-info/dependency_links.txt
+../../build/gpt1/gpt1.egg-info/entry_points.txt
+../../build/gpt1/gpt1.egg-info/requires.txt
+../../build/gpt1/gpt1.egg-info/top_level.txt
+../../build/gpt1/gpt1.egg-info/zip-safe
+gpt1/__init__.py
+gpt1/gpt1.py
+resource/gpt1
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

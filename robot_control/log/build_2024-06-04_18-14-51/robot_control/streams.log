@@ -1,0 +1,25 @@
+[0.406s] Invoking command in '/home/redes/robot_control/src/robot_control': PYTHONPATH=/home/redes/robot_control/build/robot_control/prefix_override:/home/redes/robot_control/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/redes/robot_control/build/robot_control/build install --record /home/redes/robot_control/build/robot_control/install.log --single-version-externally-managed install_data
+[0.562s] running egg_info
+[0.562s] writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+[0.562s] writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+[0.563s] writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt
+[0.563s] writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+[0.563s] writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+[0.564s] reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[0.564s] adding license file 'LICENSE'
+[0.565s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[0.565s] running build
+[0.565s] running build_py
+[0.565s] copying robot_control/robot_control.py -> /home/redes/robot_control/build/robot_control/build/lib/robot_control
+[0.565s] running install
+[0.565s] running install_lib
+[0.566s] copying /home/redes/robot_control/build/robot_control/build/lib/robot_control/robot_control.py -> /home/redes/robot_control/install/robot_control/lib/python3.10/site-packages/robot_control
+[0.566s] byte-compiling /home/redes/robot_control/install/robot_control/lib/python3.10/site-packages/robot_control/robot_control.py to robot_control.cpython-310.pyc
+[0.567s] running install_data
+[0.567s] running install_egg_info
+[0.568s] removing '/home/redes/robot_control/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.569s] Copying ../../build/robot_control/robot_control.egg-info to /home/redes/robot_control/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info
+[0.569s] running install_scripts
+[0.584s] Installing robot_control script to /home/redes/robot_control/install/robot_control/lib/robot_control
+[0.584s] writing list of installed files to '/home/redes/robot_control/build/robot_control/install.log'
+[0.602s] Invoked command in '/home/redes/robot_control/src/robot_control' returned '0': PYTHONPATH=/home/redes/robot_control/build/robot_control/prefix_override:/home/redes/robot_control/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/redes/robot_control/build/robot_control/build install --record /home/redes/robot_control/build/robot_control/install.log --single-version-externally-managed install_data

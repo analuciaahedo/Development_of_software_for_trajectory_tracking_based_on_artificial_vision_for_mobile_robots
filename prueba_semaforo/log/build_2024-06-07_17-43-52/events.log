@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000527] (semaforo) JobQueued: {'identifier': 'semaforo', 'dependencies': OrderedDict()}
+[0.001845] (semaforo) JobStarted: {'identifier': 'semaforo'}
+[0.099361] (-) TimerEvent: {}
+[0.200243] (-) TimerEvent: {}
+[0.300940] (-) TimerEvent: {}
+[0.401649] (-) TimerEvent: {}
+[0.503044] (-) TimerEvent: {}
+[0.603688] (-) TimerEvent: {}
+[0.704336] (-) TimerEvent: {}
+[0.805642] (-) TimerEvent: {}
+[0.906251] (-) TimerEvent: {}
+[1.006925] (-) TimerEvent: {}
+[1.107563] (-) TimerEvent: {}
+[1.208208] (-) TimerEvent: {}
+[1.308945] (-) TimerEvent: {}
+[1.409638] (-) TimerEvent: {}
+[1.510461] (-) TimerEvent: {}
+[1.611128] (-) TimerEvent: {}
+[1.711738] (-) TimerEvent: {}
+[1.812333] (-) TimerEvent: {}
+[1.912937] (-) TimerEvent: {}
+[2.013516] (-) TimerEvent: {}
+[2.114133] (-) TimerEvent: {}
+[2.214794] (-) TimerEvent: {}
+[2.315489] (-) TimerEvent: {}
+[2.416320] (-) TimerEvent: {}
+[2.517142] (-) TimerEvent: {}
+[2.617911] (-) TimerEvent: {}
+[2.718620] (-) TimerEvent: {}
+[2.819354] (-) TimerEvent: {}
+[2.920080] (-) TimerEvent: {}
+[3.021098] (-) TimerEvent: {}
+[3.121734] (-) TimerEvent: {}
+[3.222412] (-) TimerEvent: {}
+[3.323590] (-) TimerEvent: {}
+[3.424331] (-) TimerEvent: {}
+[3.465365] (semaforo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/semaforo', 'build', '--build-base', '/home/puzzlebot/prueba_semaforo/build/semaforo/build', 'install', '--record', '/home/puzzlebot/prueba_semaforo/build/semaforo/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/puzzlebot/prueba_semaforo/src/semaforo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'puzzlebot', 'SSH_CLIENT': '10.42.0.69 46104 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/puzzlebot', 'OLDPWD': '/home/puzzlebot', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/puzzlebot/prueba_semaforo/install:/home/puzzlebot/ros2_ws/install:/home/puzzlebot/ros2_packages_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'puzzlebot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/puzzlebot/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/puzzlebot/prueba_semaforo/install/semaforo:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'PWD': '/home/puzzlebot/prueba_semaforo/build/semaforo', 'SSH_CONNECTION': '10.42.0.69 46104 10.42.0.1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/puzzlebot/prueba_semaforo/build/semaforo/prefix_override:/home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages:/home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages:/home/puzzlebot/ros2_ws/install/puzzlebot_ros/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher'}, 'shell': False}
+[3.524594] (-) TimerEvent: {}
+[3.625545] (-) TimerEvent: {}
+[3.726157] (-) TimerEvent: {}
+[3.826818] (-) TimerEvent: {}
+[3.927418] (-) TimerEvent: {}
+[4.027978] (-) TimerEvent: {}
+[4.128592] (-) TimerEvent: {}
+[4.229209] (-) TimerEvent: {}
+[4.329768] (-) TimerEvent: {}
+[4.430382] (-) TimerEvent: {}
+[4.530967] (-) TimerEvent: {}
+[4.618072] (semaforo) StdoutLine: {'line': b'running egg_info\n'}
+[4.620438] (semaforo) StdoutLine: {'line': b'creating ../../build/semaforo/semaforo.egg-info\n'}
+[4.621409] (semaforo) StdoutLine: {'line': b'writing ../../build/semaforo/semaforo.egg-info/PKG-INFO\n'}
+[4.622251] (semaforo) StdoutLine: {'line': b'writing dependency_links to ../../build/semaforo/semaforo.egg-info/dependency_links.txt\n'}
+[4.622809] (semaforo) StdoutLine: {'line': b'writing entry points to ../../build/semaforo/semaforo.egg-info/entry_points.txt\n'}
+[4.623567] (semaforo) StdoutLine: {'line': b'writing requirements to ../../build/semaforo/semaforo.egg-info/requires.txt\n'}
+[4.624077] (semaforo) StdoutLine: {'line': b'writing top-level names to ../../build/semaforo/semaforo.egg-info/top_level.txt\n'}
+[4.624911] (semaforo) StdoutLine: {'line': b"writing manifest file '../../build/semaforo/semaforo.egg-info/SOURCES.txt'\n"}
+[4.631159] (-) TimerEvent: {}
+[4.731862] (-) TimerEvent: {}
+[4.788886] (semaforo) StdoutLine: {'line': b"reading manifest file '../../build/semaforo/semaforo.egg-info/SOURCES.txt'\n"}
+[4.792263] (semaforo) StdoutLine: {'line': b"writing manifest file '../../build/semaforo/semaforo.egg-info/SOURCES.txt'\n"}
+[4.793145] (semaforo) StdoutLine: {'line': b'running build\n'}
+[4.794625] (semaforo) StdoutLine: {'line': b'running build_py\n'}
+[4.795093] (semaforo) StdoutLine: {'line': b'creating /home/puzzlebot/prueba_semaforo/build/semaforo/build\n'}
+[4.795465] (semaforo) StdoutLine: {'line': b'creating /home/puzzlebot/prueba_semaforo/build/semaforo/build/lib\n'}
+[4.795807] (semaforo) StdoutLine: {'line': b'creating /home/puzzlebot/prueba_semaforo/build/semaforo/build/lib/semaforo\n'}
+[4.796169] (semaforo) StdoutLine: {'line': b'copying semaforo/__init__.py -> /home/puzzlebot/prueba_semaforo/build/semaforo/build/lib/semaforo\n'}
+[4.796537] (semaforo) StdoutLine: {'line': b'copying semaforo/semaforo.py -> /home/puzzlebot/prueba_semaforo/build/semaforo/build/lib/semaforo\n'}
+[4.797045] (semaforo) StdoutLine: {'line': b'running install\n'}
+[4.798019] (semaforo) StdoutLine: {'line': b'running install_lib\n'}
+[4.801739] (semaforo) StdoutLine: {'line': b'creating /home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages/semaforo\n'}
+[4.802270] (semaforo) StdoutLine: {'line': b'copying /home/puzzlebot/prueba_semaforo/build/semaforo/build/lib/semaforo/__init__.py -> /home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages/semaforo\n'}
+[4.802737] (semaforo) StdoutLine: {'line': b'copying /home/puzzlebot/prueba_semaforo/build/semaforo/build/lib/semaforo/semaforo.py -> /home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages/semaforo\n'}
+[4.806756] (semaforo) StdoutLine: {'line': b'byte-compiling /home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages/semaforo/__init__.py to __init__.cpython-38.pyc\n'}
+[4.809739] (semaforo) StdoutLine: {'line': b'byte-compiling /home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages/semaforo/semaforo.py to semaforo.cpython-38.pyc\n'}
+[4.816036] (semaforo) StdoutLine: {'line': b'running install_data\n'}
+[4.816906] (semaforo) StdoutLine: {'line': b'creating /home/puzzlebot/prueba_semaforo/install/semaforo/share/ament_index\n'}
+[4.817387] (semaforo) StdoutLine: {'line': b'creating /home/puzzlebot/prueba_semaforo/install/semaforo/share/ament_index/resource_index\n'}
+[4.817867] (semaforo) StdoutLine: {'line': b'creating /home/puzzlebot/prueba_semaforo/install/semaforo/share/ament_index/resource_index/packages\n'}
+[4.818222] (semaforo) StdoutLine: {'line': b'copying resource/semaforo -> /home/puzzlebot/prueba_semaforo/install/semaforo/share/ament_index/resource_index/packages\n'}
+[4.818590] (semaforo) StdoutLine: {'line': b'copying package.xml -> /home/puzzlebot/prueba_semaforo/install/semaforo/share/semaforo\n'}
+[4.818959] (semaforo) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.827310] (semaforo) StdoutLine: {'line': b'Copying ../../build/semaforo/semaforo.egg-info to /home/puzzlebot/prueba_semaforo/install/semaforo/lib/python3.8/site-packages/semaforo-0.0.0-py3.8.egg-info\n'}
+[4.830633] (semaforo) StdoutLine: {'line': b'running install_scripts\n'}
+[4.831962] (-) TimerEvent: {}
+[4.900401] (semaforo) StdoutLine: {'line': b'Installing semaforo script to /home/puzzlebot/prueba_semaforo/install/semaforo/lib/semaforo\n'}
+[4.901640] (semaforo) StdoutLine: {'line': b"writing list of installed files to '/home/puzzlebot/prueba_semaforo/build/semaforo/install.log'\n"}
+[4.932142] (-) TimerEvent: {}
+[5.008336] (semaforo) CommandEnded: {'returncode': 0}
+[5.032947] (-) TimerEvent: {}
+[5.068503] (semaforo) JobEnded: {'identifier': 'semaforo', 'rc': 0}
+[5.071095] (-) EventReactorShutdown: {}

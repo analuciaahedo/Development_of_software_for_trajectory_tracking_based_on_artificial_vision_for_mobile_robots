@@ -1,0 +1,37 @@
+[2.888s] Invoking command in '/home/puzzlebot/ros_ws/src/color_identification': PYTHONPATH=/home/puzzlebot/ros_ws/build/color_identification/prefix_override:/home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/color_identification build --build-base /home/puzzlebot/ros_ws/build/color_identification/build install --record /home/puzzlebot/ros_ws/build/color_identification/install.log --single-version-externally-managed install_data
+[3.887s] running egg_info
+[3.889s] creating ../../build/color_identification/color_identification.egg-info
+[3.890s] writing ../../build/color_identification/color_identification.egg-info/PKG-INFO
+[3.890s] writing dependency_links to ../../build/color_identification/color_identification.egg-info/dependency_links.txt
+[3.891s] writing entry points to ../../build/color_identification/color_identification.egg-info/entry_points.txt
+[3.891s] writing requirements to ../../build/color_identification/color_identification.egg-info/requires.txt
+[3.892s] writing top-level names to ../../build/color_identification/color_identification.egg-info/top_level.txt
+[3.892s] writing manifest file '../../build/color_identification/color_identification.egg-info/SOURCES.txt'
+[4.040s] reading manifest file '../../build/color_identification/color_identification.egg-info/SOURCES.txt'
+[4.044s] writing manifest file '../../build/color_identification/color_identification.egg-info/SOURCES.txt'
+[4.044s] running build
+[4.045s] running build_py
+[4.046s] creating /home/puzzlebot/ros_ws/build/color_identification/build
+[4.046s] creating /home/puzzlebot/ros_ws/build/color_identification/build/lib
+[4.047s] creating /home/puzzlebot/ros_ws/build/color_identification/build/lib/color_identification
+[4.047s] copying color_identification/__init__.py -> /home/puzzlebot/ros_ws/build/color_identification/build/lib/color_identification
+[4.047s] copying color_identification/color_identification.py -> /home/puzzlebot/ros_ws/build/color_identification/build/lib/color_identification
+[4.048s] running install
+[4.050s] running install_lib
+[4.053s] creating /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification
+[4.054s] copying /home/puzzlebot/ros_ws/build/color_identification/build/lib/color_identification/__init__.py -> /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification
+[4.054s] copying /home/puzzlebot/ros_ws/build/color_identification/build/lib/color_identification/color_identification.py -> /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification
+[4.056s] byte-compiling /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification/__init__.py to __init__.cpython-38.pyc
+[4.061s] byte-compiling /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification/color_identification.py to color_identification.cpython-38.pyc
+[4.065s] running install_data
+[4.065s] creating /home/puzzlebot/ros_ws/install/color_identification/share/ament_index
+[4.066s] creating /home/puzzlebot/ros_ws/install/color_identification/share/ament_index/resource_index
+[4.066s] creating /home/puzzlebot/ros_ws/install/color_identification/share/ament_index/resource_index/packages
+[4.067s] copying resource/color_identification -> /home/puzzlebot/ros_ws/install/color_identification/share/ament_index/resource_index/packages
+[4.067s] copying package.xml -> /home/puzzlebot/ros_ws/install/color_identification/share/color_identification
+[4.067s] running install_egg_info
+[4.074s] Copying ../../build/color_identification/color_identification.egg-info to /home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages/color_identification-0.0.0-py3.8.egg-info
+[4.077s] running install_scripts
+[4.140s] Installing color_identification script to /home/puzzlebot/ros_ws/install/color_identification/lib/color_identification
+[4.141s] writing list of installed files to '/home/puzzlebot/ros_ws/build/color_identification/install.log'
+[4.234s] Invoked command in '/home/puzzlebot/ros_ws/src/color_identification' returned '0': PYTHONPATH=/home/puzzlebot/ros_ws/build/color_identification/prefix_override:/home/puzzlebot/ros_ws/install/color_identification/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/color_identification build --build-base /home/puzzlebot/ros_ws/build/color_identification/build install --record /home/puzzlebot/ros_ws/build/color_identification/install.log --single-version-externally-managed install_data

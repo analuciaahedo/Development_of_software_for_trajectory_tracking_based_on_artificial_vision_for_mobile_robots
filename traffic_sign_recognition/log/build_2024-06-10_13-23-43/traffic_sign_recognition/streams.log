@@ -1,0 +1,22 @@
+[0.418s] Invoking command in '/home/redes/traffic_sign_recognition/src/traffic_sign_recognition': PYTHONPATH=/home/redes/traffic_sign_recognition/build/traffic_sign_recognition/prefix_override:/home/redes/traffic_sign_recognition/install/traffic_sign_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/traffic_sign_recognition build --build-base /home/redes/traffic_sign_recognition/build/traffic_sign_recognition/build install --record /home/redes/traffic_sign_recognition/build/traffic_sign_recognition/install.log --single-version-externally-managed install_data
+[0.578s] running egg_info
+[0.578s] writing ../../build/traffic_sign_recognition/traffic_sign_recognition.egg-info/PKG-INFO
+[0.578s] writing dependency_links to ../../build/traffic_sign_recognition/traffic_sign_recognition.egg-info/dependency_links.txt
+[0.578s] writing entry points to ../../build/traffic_sign_recognition/traffic_sign_recognition.egg-info/entry_points.txt
+[0.578s] writing requirements to ../../build/traffic_sign_recognition/traffic_sign_recognition.egg-info/requires.txt
+[0.578s] writing top-level names to ../../build/traffic_sign_recognition/traffic_sign_recognition.egg-info/top_level.txt
+[0.580s] reading manifest file '../../build/traffic_sign_recognition/traffic_sign_recognition.egg-info/SOURCES.txt'
+[0.580s] adding license file 'LICENSE'
+[0.580s] writing manifest file '../../build/traffic_sign_recognition/traffic_sign_recognition.egg-info/SOURCES.txt'
+[0.580s] running build
+[0.581s] running build_py
+[0.581s] running install
+[0.581s] running install_lib
+[0.582s] running install_data
+[0.582s] running install_egg_info
+[0.583s] removing '/home/redes/traffic_sign_recognition/install/traffic_sign_recognition/lib/python3.10/site-packages/traffic_sign_recognition-0.0.0-py3.10.egg-info' (and everything under it)
+[0.584s] Copying ../../build/traffic_sign_recognition/traffic_sign_recognition.egg-info to /home/redes/traffic_sign_recognition/install/traffic_sign_recognition/lib/python3.10/site-packages/traffic_sign_recognition-0.0.0-py3.10.egg-info
+[0.584s] running install_scripts
+[0.599s] Installing traffic_sign_recognition script to /home/redes/traffic_sign_recognition/install/traffic_sign_recognition/lib/traffic_sign_recognition
+[0.599s] writing list of installed files to '/home/redes/traffic_sign_recognition/build/traffic_sign_recognition/install.log'
+[0.618s] Invoked command in '/home/redes/traffic_sign_recognition/src/traffic_sign_recognition' returned '0': PYTHONPATH=/home/redes/traffic_sign_recognition/build/traffic_sign_recognition/prefix_override:/home/redes/traffic_sign_recognition/install/traffic_sign_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/traffic_sign_recognition build --build-base /home/redes/traffic_sign_recognition/build/traffic_sign_recognition/build install --record /home/redes/traffic_sign_recognition/build/traffic_sign_recognition/install.log --single-version-externally-managed install_data

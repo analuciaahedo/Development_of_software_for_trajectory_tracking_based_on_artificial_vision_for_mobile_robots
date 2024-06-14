@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.000431] (robot_control) JobQueued: {'identifier': 'robot_control', 'dependencies': OrderedDict()}
+[0.002890] (robot_control) JobStarted: {'identifier': 'robot_control'}
+[0.099169] (-) TimerEvent: {}
+[0.199996] (-) TimerEvent: {}
+[0.300632] (-) TimerEvent: {}
+[0.401180] (-) TimerEvent: {}
+[0.501796] (-) TimerEvent: {}
+[0.602351] (-) TimerEvent: {}
+[0.702951] (-) TimerEvent: {}
+[0.803546] (-) TimerEvent: {}
+[0.904154] (-) TimerEvent: {}
+[1.004794] (-) TimerEvent: {}
+[1.105377] (-) TimerEvent: {}
+[1.205979] (-) TimerEvent: {}
+[1.306685] (-) TimerEvent: {}
+[1.407560] (-) TimerEvent: {}
+[1.508249] (-) TimerEvent: {}
+[1.608916] (-) TimerEvent: {}
+[1.709777] (-) TimerEvent: {}
+[1.810624] (-) TimerEvent: {}
+[1.911224] (-) TimerEvent: {}
+[2.011826] (-) TimerEvent: {}
+[2.112445] (-) TimerEvent: {}
+[2.213276] (-) TimerEvent: {}
+[2.313858] (-) TimerEvent: {}
+[2.414486] (-) TimerEvent: {}
+[2.515080] (-) TimerEvent: {}
+[2.615765] (-) TimerEvent: {}
+[2.716349] (-) TimerEvent: {}
+[2.816936] (-) TimerEvent: {}
+[2.917535] (-) TimerEvent: {}
+[3.018085] (-) TimerEvent: {}
+[3.118707] (-) TimerEvent: {}
+[3.219355] (-) TimerEvent: {}
+[3.320121] (-) TimerEvent: {}
+[3.356800] (robot_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/robot_control', 'build', '--build-base', '/home/puzzlebot/robot_control/build/robot_control/build', 'install', '--record', '/home/puzzlebot/robot_control/build/robot_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/puzzlebot/robot_control/robot_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'puzzlebot', 'SSH_CLIENT': '10.42.0.117 47168 22', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/puzzlebot', 'OLDPWD': '/home/puzzlebot', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'es_MX.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/puzzlebot/ros2_ws/install:/home/puzzlebot/ros2_packages_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'puzzlebot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/puzzlebot/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'es_MX.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_GB.UTF-8', 'LC_TELEPHONE': 'es_MX.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'PWD': '/home/puzzlebot/robot_control/build/robot_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.117 47168 10.42.0.1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/puzzlebot/robot_control/build/robot_control/prefix_override:/home/puzzlebot/robot_control/install/robot_control/lib/python3.8/site-packages:/home/puzzlebot/ros2_ws/install/puzzlebot_ros/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher'}, 'shell': False}
+[3.420340] (-) TimerEvent: {}
+[3.521177] (-) TimerEvent: {}
+[3.621759] (-) TimerEvent: {}
+[3.722297] (-) TimerEvent: {}
+[3.822863] (-) TimerEvent: {}
+[3.923420] (-) TimerEvent: {}
+[4.024025] (-) TimerEvent: {}
+[4.124629] (-) TimerEvent: {}
+[4.225200] (-) TimerEvent: {}
+[4.325802] (-) TimerEvent: {}
+[4.426512] (-) TimerEvent: {}
+[4.460342] (robot_control) StdoutLine: {'line': b'running egg_info\n'}
+[4.463433] (robot_control) StdoutLine: {'line': b'writing ../build/robot_control/robot_control.egg-info/PKG-INFO\n'}
+[4.466849] (robot_control) StdoutLine: {'line': b'writing dependency_links to ../build/robot_control/robot_control.egg-info/dependency_links.txt\n'}
+[4.467431] (robot_control) StdoutLine: {'line': b'writing entry points to ../build/robot_control/robot_control.egg-info/entry_points.txt\n'}
+[4.468631] (robot_control) StdoutLine: {'line': b'writing requirements to ../build/robot_control/robot_control.egg-info/requires.txt\n'}
+[4.469024] (robot_control) StdoutLine: {'line': b'writing top-level names to ../build/robot_control/robot_control.egg-info/top_level.txt\n'}
+[4.526929] (-) TimerEvent: {}
+[4.627569] (-) TimerEvent: {}
+[4.630799] (robot_control) StdoutLine: {'line': b"reading manifest file '../build/robot_control/robot_control.egg-info/SOURCES.txt'\n"}
+[4.635502] (robot_control) StdoutLine: {'line': b"writing manifest file '../build/robot_control/robot_control.egg-info/SOURCES.txt'\n"}
+[4.636093] (robot_control) StdoutLine: {'line': b'running build\n'}
+[4.636460] (robot_control) StdoutLine: {'line': b'running build_py\n'}
+[4.637927] (robot_control) StdoutLine: {'line': b'running install\n'}
+[4.641262] (robot_control) StdoutLine: {'line': b'running install_lib\n'}
+[4.648975] (robot_control) StdoutLine: {'line': b'byte-compiling /home/puzzlebot/robot_control/install/robot_control/lib/python3.8/site-packages/robot_control/__init__.py to __init__.cpython-38.pyc\n'}
+[4.654005] (robot_control) StdoutLine: {'line': b'running install_data\n'}
+[4.655628] (robot_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.664381] (robot_control) StdoutLine: {'line': b"removing '/home/puzzlebot/robot_control/install/robot_control/lib/python3.8/site-packages/robot_control-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.665523] (robot_control) StdoutLine: {'line': b'Copying ../build/robot_control/robot_control.egg-info to /home/puzzlebot/robot_control/install/robot_control/lib/python3.8/site-packages/robot_control-0.0.0-py3.8.egg-info\n'}
+[4.670109] (robot_control) StdoutLine: {'line': b'running install_scripts\n'}
+[4.727784] (-) TimerEvent: {}
+[4.738031] (robot_control) StdoutLine: {'line': b'Installing robot_control script to /home/puzzlebot/robot_control/install/robot_control/lib/robot_control\n'}
+[4.741982] (robot_control) StdoutLine: {'line': b"writing list of installed files to '/home/puzzlebot/robot_control/build/robot_control/install.log'\n"}
+[4.827954] (-) TimerEvent: {}
+[4.839946] (robot_control) CommandEnded: {'returncode': 0}
+[4.895872] (robot_control) JobEnded: {'identifier': 'robot_control', 'rc': 0}
+[4.898246] (-) EventReactorShutdown: {}

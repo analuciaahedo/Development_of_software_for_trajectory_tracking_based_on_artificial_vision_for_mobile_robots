@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/odometria/odometria.egg-info/PKG-INFO
+writing dependency_links to ../../build/odometria/odometria.egg-info/dependency_links.txt
+writing entry points to ../../build/odometria/odometria.egg-info/entry_points.txt
+writing requirements to ../../build/odometria/odometria.egg-info/requires.txt
+writing top-level names to ../../build/odometria/odometria.egg-info/top_level.txt
+reading manifest file '../../build/odometria/odometria.egg-info/SOURCES.txt'
+writing manifest file '../../build/odometria/odometria.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+byte-compiling /home/puzzlebot/odometria/install/odometria/lib/python3.8/site-packages/odometria/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/puzzlebot/odometria/install/odometria/lib/python3.8/site-packages/odometria/odometria.py to odometria.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/puzzlebot/odometria/install/odometria/lib/python3.8/site-packages/odometria-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/odometria/odometria.egg-info to /home/puzzlebot/odometria/install/odometria/lib/python3.8/site-packages/odometria-0.0.0-py3.8.egg-info
+running install_scripts
+Installing odometria script to /home/puzzlebot/odometria/install/odometria/lib/odometria
+writing list of installed files to '/home/puzzlebot/odometria/build/odometria/install.log'

@@ -1,0 +1,3 @@
+[console_scripts]
+semaforo = semaforo.semaforo:main
+
